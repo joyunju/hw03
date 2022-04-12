@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* 전체 적용 */
+* {
+	font-family : 맑은고딕;
+	font-size : 17px;
+}
+h2 {
+	font-size : 25px;
+}
+h3 {
+	font-size : 20px;
+}
+
+h1 {
+	font-family: 궁서체;
+	font-size : 30px;
+	letter-spacing : 15px;
+}
+/* box1 style */
+
+.ib {
+	font-style : italic;
+	font-weight : bold;
+	color : #0000ff;
+}
+.ir {
+	font-style : italic;
+	font-weight : bold;
+	color : #ff0000;
+}
+/* box2 style */
+.box2 {
+	background-color : #d9d9d9;
+}
+.box2>p {
+	text-indent: 30px;
+}
+.under {
+	text-decoration : underline;
+}
+.green {
+	color : #00ff00;
+}
+.br {
+	font-weight : bold;
+	color : #ff0000;
+}
+
+/* box3 style */
+ul {
+	list-style-type: square;
+}
+.b-g {
+	font-weight : bold;
+	color : #00ff00;
+}
+.i-b {
+	font-style : italic;
+	color : #0000ff;
+}
+.b-r {
+	font-weight : bold;
+	color : #ff0000;
+}
+
+/* box4 style */
+ol {
+	list-style : none;
+}
+
+/* box5 style */
+thead {
+	background-color : #c8ebfa;
+}
+
+tbody>tr>td>a:link {
+	color : #000000;
+	text-decoration : none;
+}
+tbody>tr>td>a:visited {
+	color : #000000;
+}
+tbody>tr>td>a:hover {
+	color : #0000ff;
+	text-decoration : underline;
+}
+tbody>tr>td>a:action {
+	color : #0000ff;
+	text-decoration : underline;
+}
+tbody>tr:hover {
+	background-color : #edd3ed;
+}
+tbody>tr>td:nth-child(2n) {
+	text-align : right;
+	/* color : red; */
+}
+/* tbody>tr>td:last-child {
+	text-align : right;
+} */
+
+/* 가상 선택자 after, before */
+/* tbody>tr>td:nth-child(2n):after {
+   content: "(MB/초)";
+} */
+.pseudo:before {
+	content : "약 ";
+}
+.pseudo:after {
+	content : " (MB/초)";
+}
+
+
+
+
